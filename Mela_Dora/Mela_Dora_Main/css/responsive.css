@@ -1,0 +1,151 @@
+@media (max-width: 200px) { 
+    .about-img-main img{
+        display: none;
+     }
+    .social-links a{
+        width: 5px;
+        width: 5px;
+    }
+    .fa-phone{
+        font-size: 5px;
+    }
+    .bag-img{
+        width: 250px;
+      }
+     .list-group{
+         display: none;
+     }
+} 
+@media (max-width: 320px) { 
+    .about-img-main img{
+        display: none;
+     }
+    .social-links a{
+        width: 5px;
+        width: 5px;
+    }
+    .fa-phone{
+        font-size: 5px;
+    }
+    .bag-img{
+        width:250px;
+      }
+     .list-group{
+         display: none;
+     }
+}
+@media (max-width: 350px) { 
+    .about-img-main img{
+        display: none;
+     }
+    .social-links a{
+        width: 5px;
+        width: 5px;
+    }
+    .fa-phone{
+        font-size: 5px;
+    }
+    .bag-img{
+        width:250px;
+      }
+     .list-group{
+         display: none;
+     }  
+}
+@media (max-width: 420px) { 
+    .about-img-main img {
+        display: none;
+     }
+
+    .social-links a{
+        width: 5px;
+        width: 5px;
+    }
+    .fa-phone{
+        font-size: 5px;
+    }
+    .bag-img{
+        width:250px;
+      }
+     .list-group{
+         display: none;
+     }
+}
+
+@media (max-width: 576px) { 
+    .about-img-main img{
+        display: none;
+     }
+    .list-group{
+        display: none;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media(max-width: 600px) {
+    .about-img-main img{
+        display: none;
+     }
+     .list-group a{
+        font-size: 15px;
+      }
+     .list-group{
+         display: none;
+     }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    .about-img-main img{
+        display: 300px;
+     }
+     .services-box{
+        padding: 20px;
+       }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
+    .nav-link{
+        font-size:10px; 
+    }
+    .footer-top {
+        text-align: center;
+    }
+    .about-img-main img{
+        width: 350px;
+    }
+    .about-text-img{
+        display: none;
+    }
+    .boxes{
+        width: 200px;
+      }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (max-width: 1200px) {
+    .nav-link{
+        font-size: 10px; 
+    }
+     .about-text-img{
+         display: none;
+     }
+  }
+  @media only screen and (max-width: 1400px) {
+    .nav-link{
+        font-size: 10px; 
+    }
+    .about-main-img img{
+        width: 400px;
+    }
+  }
+
+
+
+
+
+
+
+

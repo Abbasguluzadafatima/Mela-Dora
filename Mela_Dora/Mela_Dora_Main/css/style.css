@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,300&family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@400;500&display=swap');
+
+:root {
+    --main-color:  #91B40D;
+    --text-color: #3E3737;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    margin-bottom: 5rem;
+}
+.body{
+    background-color: #fff;
+}
+.text-img{
+    margin: auto;
+}
+/* **********NavBar ************ */
+.main-nav{
+    position: relative;
+    height: 650px;
+    background: linear-gradient(rgba(99, 99, 96, 0.203), rgba(0, 0, 0, 0.951)), url(../img/markus-spiske-71uUjIt3cIs-unsplash.svg) center/cover no-repeat; 
+}
+.fa-phone{
+    color:var(--main-color);
+    font-size: 20px;
+}
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.top-nav i{
+vertical-align: middle;
+}
+.social-links{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.social-links a{
+    width: 34px;
+    height: 34px;
+    background-color: rgba(240, 236, 236, 0.249);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-color);
+    font-size: 20px;
+    border-radius: 50%;
+}
+.social-links a:hover{
+    background-color: rgba(240, 236, 236, 0.249);
+    color: #fff;
+}
+.nav-link {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff !important;
+    padding: 5px;
+}
+.nav-link:hover{
+  color: var(--main-color) !important;
+}
+
+/* ********** sliders *********** */
+     .card{
+      width: 100%;
+      height: 40vh;
+      display: flex;
+      justify-content: space-between;
+    }
+    .img-slider{
+      object-fit: cover;
+      width: 12rem;
+      height: 12rem;
+      
+    }
+    .slider-text{
+       color: #fff;
+     }
+     .slider-text h5{
+      font-weight: bold;
+    }
+     .slider-1{
+       background: #1A5221;
+       background-image: url(../picter/Group\ 435.svg);
+     }
+     .slider-2{
+      background: #91B40D;
+      background-image: url(../picter/Group\ 434.svg);
+    }
+    .slider-3{
+      background: #FFBF00;
+      background-image: url(../picter/Group\ 425.svg);
+    }
+
+    /******* Biz Kimik? ******** */
+  .about{
+    background-color:#f0efef ;
+  }
+.about-us{
+  text-align: center;
+}
+.about-text{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+  padding: 5%;
+}
+
+/******* Baglarimiz ******** */
+.bag-img{
+  width: 100%;
+}
+
+
+/* ****** Məhsullarımız ******* */
+.fa-manat-sign{
+  color: #91B40D ;
+}
+.card{
+  border: none;
+}
+.meh-img{
+  
+width: 60%;
+}
+
+.box-hover:hover{
+  transform: scale(1.1);
+}
+.list-group ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-group a{
+ padding: 20px;
+ font-size: 20px;
+ color: black;
+}
+.active a{
+color: #91B40D;
+}
+.boxes{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* ******* Bloglar ******* */
+.services-box{
+ width: 300px;
+}
+
+/* ********** Footer *********** */
+.footer-top{
+    background:url(../img/ezgif.com-gif.svg) center/cover no-repeat ;
+    padding-top: 300px;
+    flex-direction: column;
+  }
+  .footer-top a{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  }
+  .footer-top a:hover{
+    color: rgb(249, 241, 10);
+     font-size: 30;
+     font-weight: 700;
+    }
+
+  .icon-top{
+    font-size: 2.5rem;
+    color: rgb(249, 241, 10);
+  }
+  .copyright{
+      color: #fff;
+      padding: 10px;
+  }
+
+/* ********** Modal *********** */
+.btn-modal{
+ background-color: #fff;
+ color: black;
+ width: 200px;
+ height: 70px;
+}
+.btn-modal:hover{
+background-color: #1A5221;
+color: #fff;  
+}
+.modal-content{
+background: none !important;
+border: 0;
+}
+.form-control {
+background: none !important;
+}

@@ -1,0 +1,122 @@
+@media (max-width: 200px) { 
+    .bg-img-top img{
+        display: none;
+    }
+    .social-links a{
+        width: 5px;
+        width: 5px;
+    }
+    .fa-phone{
+        font-size: 5px;
+    }
+    .right-img  img{
+        display: none;
+     }
+} 
+@media (max-width: 320px) { 
+    .bg-img-top img{
+        display: none;
+    }
+    .social-links a{
+        width: 5px;
+        width: 5px;
+    }
+    .fa-phone{
+        font-size: 5px;
+    }
+    .right-img img{
+        display: none;
+     }
+  
+}
+@media (max-width: 350px) { 
+    .bg-img-top img{
+        display: none;
+    }
+    .social-links a{
+        width: 5px;
+        width: 5px;
+    }
+    .fa-phone{
+        font-size: 5px;
+    }
+    .right-img img{
+        display: none;
+     }
+}
+@media (max-width: 420px) { 
+    .bg-img-top img{
+        display: none;
+    }
+    .social-links a{
+        width: 5px;
+        width: 5px;
+    }
+    .fa-phone{
+        font-size: 5px;
+    }
+    .right-img img{
+        display: none;
+     }
+}
+
+@media (max-width: 576px) { 
+    .bg-img-top img{
+        display: none;
+    }
+    .right-img img{
+        display: none;
+     }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media(max-width: 600px) {
+    .bg-img-top img{
+        display: none;
+    }
+    .bag-img{
+        width: 100%;
+    }
+    .right-img img{
+        display: none;
+     }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    .right-img{
+        display: none;
+     }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
+    .nav-link{
+        font-size: 10px; 
+    }
+    .footer-top {
+        text-align: center;
+    }
+    .right-img img{
+        display: none;
+     }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (max-width: 1200px) {
+    .nav-link{
+        font-size: 10px;
+       
+    }
+    .right-img img{
+        display: none;
+     }
+  }
+  @media only screen and (max-width: 1400px) {
+    .nav-link{
+        font-size: 10px; 
+    }
+    .right-img img{
+        display: none;
+     }
+  }

@@ -1,0 +1,143 @@
+@media (max-width: 200px) { 
+    .about-img-main {
+       display: none;
+    }
+    .bg-img-top img{
+        display: none;
+    }
+    .about-text-img{
+       display: none;
+    }
+    .social-links a{
+        width: 5px;
+        width: 5px;
+    }
+    .fa-phone{
+        font-size: 5px;
+    }
+} 
+@media (max-width: 320px) { 
+    .about-img-main {
+        display: none;
+     }
+    .bg-img-top img{
+        display: none;
+    }
+    .about-text-img{
+       display: none;
+    }
+    .social-links a{
+        width: 5px;
+        width: 5px;
+    }
+    .fa-phone{
+        font-size: 5px;
+    }
+  
+}
+@media (max-width: 350px) { 
+    .about-img-main {
+        display: none;
+     }
+    .bg-img-top img{
+        display: none;
+    }
+    .about-text-img{
+       display: none;
+    }
+    .social-links a{
+        width: 5px;
+        width: 5px;
+    }
+    .fa-phone{
+        font-size: 5px;
+    }
+}
+@media (max-width: 420px) { 
+    .about-img-main {
+        display: none;
+     }
+    .bg-img-top img{
+        display: none;
+    }
+    .about-text-img{
+       display: none;
+    }
+    .social-links a{
+        width: 5px;
+        width: 5px;
+    }
+    .fa-phone{
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 576px) { 
+    .about-img-main {
+        display: none;
+     }
+    .bg-img-top img{
+        display: none;
+    }
+    .about-text-img{
+       display: none;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media(max-width: 600px) {
+    .about-img-main img{
+        width: 300px;
+    }
+    .bg-img-top img{
+        display: none;
+    }
+    .about-text-img{
+       display: none;
+    }
+   
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    .about-img-main img{
+        width: 300px;
+    }
+    .about-text-img{
+       display: none;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
+    .about-img-main img{
+        width: 350px;
+    }
+    .nav-link{
+        font-size: 10px; 
+    }
+    .footer-top {
+        text-align: center;
+    }
+    
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (max-width: 1200px) {
+    .about-img-main img{
+        
+    }
+    .nav-link{
+        font-size: 10px;
+       
+    }
+    
+  }
+  @media only screen and (max-width: 1400px) {
+    .about-img-main img{
+        width: 400px; 
+    } 
+    .nav-link{
+        font-size: 10px; 
+    }
+  }
